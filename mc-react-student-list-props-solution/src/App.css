@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: lightblue;
+}
+
+main {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-size: 0.75rem;
+  background: lightgrey;
+}
+
+.student-list {
+  list-style-type: none;
+}
+
+.student-list li {
+  padding: 2px;
+}
+
+.add-student-form {
+  padding: 10px;
+}
